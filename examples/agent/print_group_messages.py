@@ -2,7 +2,6 @@
 import argparse
 from dingtalk_stream import AckMessage
 import dingtalk_stream
-import requests
 import smtplib
 import ssl
 from email.mime.text import MIMEText
@@ -12,6 +11,7 @@ from datetime import datetime
 # DINGTALK_APP_KEY, DINGTALK_APP_SECRET, DINGTALK_CHAT_ID
 # MAIL_FROM, MAIL_PASSWORD, MAIL_TO
 # QQ邮箱 SMTP 默认: smtp.qq.com:465
+# python examples\agent\print_group_messages.py --client_id dingzqvxdaugrlvbvrgh --client_secret omgvBEKrPmkksBfvDPVyDYEr9azd-sil7vEwl9ONGNLZONaSPYJse2zg6xcsKL1X
 
 DINGTALK_APP_KEY = "dingmgrjjplhkjagnxon"
 DINGTALK_APP_SECRET = "CEhY8woh2igFpz1gqaFweW47_Qn7UZ1ecKiaWJYH0E69DeYGde7wDmHn4lseVqfr"
